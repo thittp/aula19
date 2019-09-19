@@ -1,10 +1,10 @@
 from unittest import TestCase
-from com.kuma.operacoes import operacoes
+from com.kuma.operacoes import Operacoes
 
 
 class TestOperacoes(TestCase):
 	def setUp(self):
-		self.operações = operacoes()
+		self.operações = Operacoes()
 		
 	def test_soma(self):
-		self.assertEqual(self.operacoes.soma([1,5]), 6, "Deve ser 6")
+		self.assertEqual(self.operacoes.soma([1,5]), 6, 'Deve ser 6')

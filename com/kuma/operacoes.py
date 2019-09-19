@@ -3,12 +3,11 @@ class Operacoes():
 		val = 0
 		for v in valores:
 			val = val + v
-			
 		return val
 		
-	des subtracao(sel, valores)
+	def subtracao(self, valores):
 		val = 0
 		for v in valores:
-			val = val - val
+			val = val - v
 		return val
-			
+	
